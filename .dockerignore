@@ -1,0 +1,10 @@
+# Contexto de build (compose usa imagen mysql:8.0 + volúmenes, pero si algún
+# día se agrega un Dockerfile, esto evita subir basura al daemon).
+# OJO: los volúmenes (./data, ./db, ./docker) NO se ven afectados por esto.
+.git
+.idea/
+.env
+docs/
+*.log
+Thumbs.db
+.DS_Store

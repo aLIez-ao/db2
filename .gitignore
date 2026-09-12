@@ -1,0 +1,20 @@
+# --- JetBrains (DataGrip) ---
+.idea/
+
+# --- Entorno local (no versionar credenciales) ---
+.env
+
+# --- Python (conversor) ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- Sistema ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Temporales ---
+*.tmp
+*.bak
+*.log
